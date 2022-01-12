@@ -6,12 +6,17 @@
 
   "description": "Faire apparaitre un pop up pour dire bienvenue sur notre site quand on ouvre une page.",
 
+
   "browser_action": {
-    "default_popup": "security.html",
+    "default_popup": "popup/choose_beast.html",
     "default_icon": "Icons/template.png",
     "default_title": "test"
 
   },
+
+  "permissions": [
+    "activeTab"
+  ],
 
   "icons": {
     "48": "Icons/template.png"
