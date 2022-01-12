@@ -8,12 +8,13 @@
 
   "browser_action": {
     "default_popup": "security.html",
-    "default_icon": "Image/icons.png"
+    "default_icon": "Icons/template.png",
+    "default_title": "test"
 
   },
 
   "icons": {
-    "48": "icons/icons.png"
+    "48": "Icons/template.png"
   },
 
   "content_scripts": [{
