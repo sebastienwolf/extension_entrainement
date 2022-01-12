@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "SecurityChilden",
+  "version": "1.0",
+
+  "description": "Faire apparaitre un pop up pour dire bienvenue sur notre site quand on ouvre une page.",
+
+  "browser_action": {
+    "default_popup": "security.html",
+    "default_icon": "Image/icons.png"
+
+  },
+
+  "icons": {
+    "48": "icons/icons.png"
+  },
+
+  "content_scripts": [{
+    "matches": ["*://*.mozilla.org/*"],
+
+    "js": ["SecurityChilden.js"]
+  }]
+
+}
